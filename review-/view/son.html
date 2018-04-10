@@ -1,0 +1,12 @@
+<h2>this is son
+
+</h2>
+
+<h5>
+    {{sondata.resdata}}
+
+</h5>
+<ul>
+    <!--第一个是下标  第二个是数组元素   如果数据有重复加一句track by $index-->
+    <li ng-repeat="(item,idx) in sondata.arr track by $index">{{item}}{{idx}}</li>
+</ul>
